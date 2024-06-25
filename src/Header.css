@@ -1,0 +1,39 @@
+/* .header {
+  background-color: #a4c991;
+  padding: 10px 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */
+
+/* src/components/Header.css */
+
+.header {
+  display: flex;
+  align-items: center; /* Vertically center the content */
+  justify-content: space-around; /* Distribute space between image and links */
+  padding: 10px 20px; /* Add padding for spacing */
+  background-color: #a4c991; /* Set your desired background color */
+}
+
+.header img {
+  max-height: 100px; /* Adjust the image size as needed */
+  /* margin-right: 0px; */
+  /* Add spacing between image and links */
+}
+
+.header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px; /* Add spacing between links */
+  /* margin: 0; */
+  /* Remove default margin */
+}
+
+.header nav a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #444;
+  font-weight: bold;
+}
