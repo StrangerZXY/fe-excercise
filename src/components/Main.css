@@ -1,0 +1,7 @@
+.main {
+  display: flex;
+  align-items: center; /* Vertically center the content */
+  justify-content: space-around; /* Distribute space between image and links */
+  padding: 10px 20px; /* Add padding for spacing */
+  background-color: #a4c991; /* Set your desired background color */
+}

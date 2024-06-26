@@ -7,14 +7,14 @@
   align-items: center;
 } */
 
-/* src/components/Header.css */
-
 .header {
   display: flex;
   align-items: center; /* Vertically center the content */
-  justify-content: space-around; /* Distribute space between image and links */
+  column-gap: 50px;
+  justify-content: center;
+  /* Distribute space between image and links */
   padding: 10px 20px; /* Add padding for spacing */
-  background-color: #a4c991; /* Set your desired background color */
+  background-color: white; /* Set your desired background color */
 }
 
 .header img {
@@ -32,8 +32,20 @@
 }
 
 .header nav a {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   text-decoration: none;
-  color: #444;
+  color: black;
   font-weight: bold;
+  /* border: 1px solid black;
+  padding: 5px 10px 5px 10px;
+  border-radius: 8px;
+  background-color: #f4ce14; */
 }
+
+/* Green - #49SE57
+Yellow - #F4CE14
+Orange - EE9972
+Sand - FBDABB
+Silver/Grey - EDEFEE
+Dark Grey - 333333
+*/
