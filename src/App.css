@@ -1,4 +1,29 @@
-.App {
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.button {
+  width: 200px;
+  background-color: #f4ce14;
+  border-radius: 16px;
+  color: black;
+  font-size: 18px;
+  font-weight: bolder;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+button:hover {
+  opacity: 0.7;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +60,43 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* Flex Grid and Margins - Rows and Columns */
+.row {
+  display: flex;
+  flex-flow: row;
+  /* wrap; */
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  border: 3px solid black;
+}
+
+.column {
+  flex: 1 1 0px;
+  /* padding-left: 0.9375rem;
+  padding-right: 0.9375rem; */
+  box-sizing: border-box;
+  border: 3px solid cyan;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Define column widths for different screen sizes */
+/* .sm-1 {
+  flex: 0 0 8.33333%;
+  max-width: 8.33333%;
+} */
+.sm-2 {
+  flex: 0 0 16.66667%;
+  max-width: 16.66667%;
+  border: 10px solid brown;
+}
+.sm-8 {
+  flex: 0 0 66.66667%;
+  max-width: 66.66667%;
+  border: 10px solid greenyellow;
 }

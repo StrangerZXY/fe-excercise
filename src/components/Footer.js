@@ -4,7 +4,7 @@ import './Footer.css';
 const Footer = () => {
 	return (
 		<footer className="footer">
-			<div>Footer</div>
+			<div>Footer.<br /> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
 		</footer>
 	);
 };

@@ -1,38 +1,32 @@
-/* .header {
-  background-color: #a4c991;
-  padding: 10px 20px;
-  color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-} */
-
 .header {
   display: flex;
   align-items: center; /* Vertically center the content */
   column-gap: 50px;
-  justify-content: center;
-  /* Distribute space between image and links */
-  padding: 10px 20px; /* Add padding for spacing */
-  background-color: white; /* Set your desired background color */
+  justify-content: center; /* Distribute space between image and links */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  flex-wrap: wrap;
+  border: 3px solid black;
 }
 
 .header img {
-  max-height: 100px; /* Adjust the image size as needed */
   /* margin-right: 0px; */
   /* Add spacing between image and links */
+  max-width: 200px;
 }
 
 .header nav ul {
   list-style: none;
   display: flex;
   gap: 20px; /* Add spacing between links */
-  /* margin: 0; */
-  /* Remove default margin */
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .header nav a {
-  font-size: 1.3rem;
+  /* font-size: 1.3rem; */
+  font-size: 20px;
   text-decoration: none;
   color: black;
   font-weight: bold;
@@ -42,7 +36,7 @@
   background-color: #f4ce14; */
 }
 
-/* Green - #49SE57
+/* Green - #495E57
 Yellow - #F4CE14
 Orange - EE9972
 Sand - FBDABB

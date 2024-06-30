@@ -1,0 +1,74 @@
+.specials {
+  background-color: white;
+  color: black;
+}
+.specialsTitleBox {
+  display: flex;
+  align-items: center;
+  /* max-width: 100%; */
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border: 3px solid blue;
+}
+.specialsTitle {
+  font-size: 64px;
+}
+/* .specialsTitleBox .button {
+} */
+.specialsTitleBox div {
+  color: aqua;
+  align-self: flex-end;
+}
+/* ---------- Card styles ---------- */
+.dishContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.dishBox {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  max-width: 260px;
+}
+
+.specialsImage img {
+  display: block;
+  width: 265px;
+  height: 185px;
+  border-radius: 16px 16px 0 0;
+}
+.specialsTextBox {
+  padding: 10px 20px 20px;
+  background-color: #edefee;
+  align-items: end;
+}
+.dishTitle {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+.dishTitle span {
+  font-size: 16px;
+  color: #ee9972;
+}
+.dishDescription {
+  font-size: 16px;
+  font-weight: normal;
+  color: #495e57;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.dishOrderDelivery {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333333;
+}
+.dishOrderDelivery img {
+  width: 34px;
+  margin-bottom: -10px;
+  margin-left: 20px;
+}

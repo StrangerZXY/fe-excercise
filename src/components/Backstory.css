@@ -1,7 +1,7 @@
-.footer {
+.backstory {
   display: flex;
   align-items: center;
-  background-color: skyblue;
+  background-color: white;
   color: black;
   max-width: 100%;
 }
