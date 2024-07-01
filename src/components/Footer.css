@@ -1,7 +1,36 @@
 .footer {
   display: flex;
-  align-items: center;
-  background-color: skyblue;
+  flex-wrap: wrap;
+  /* align-items: center; */
+  background-color: #d9d9d9;
   color: black;
   max-width: 100%;
+  gap: 20px;
+}
+.footerPicture {
+  flex: 0 1 25%;
+  border: 3px solid green;
+  padding: 20px 20px 20px 20px;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+.footerPicture img {
+  display: block;
+  width: 162px;
+  height: 279px;
+  border: 3px solid magenta;
+}
+.footerBox {
+  flex: 1;
+  margin-top: 30px;
+}
+.footerBoxTitle {
+  font-size: 20px;
+  font-weight: bold;
+  color: #495e57;
+}
+.footerBoxList {
+  font-size: 20px;
+  font-weight: normal;
+  color: #333333;
 }
