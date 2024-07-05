@@ -11,8 +11,6 @@
 }
 
 .header img {
-  /* margin-right: 0px; */
-  /* Add spacing between image and links */
   max-width: 200px;
 }
 
@@ -25,7 +23,7 @@
 }
 
 .header nav a {
-  /* font-size: 1.3rem; */
+  /* 20px = font-size: 1.3rem; */
   font-size: 20px;
   text-decoration: none;
   color: black;
@@ -35,11 +33,3 @@
   border-radius: 8px;
   background-color: #f4ce14; */
 }
-
-/* Green - #495E57
-Yellow - #F4CE14
-Orange - EE9972
-Sand - FBDABB
-Silver/Grey - EDEFEE
-Dark Grey - 333333
-*/
